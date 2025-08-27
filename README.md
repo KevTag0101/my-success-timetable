@@ -14,7 +14,7 @@ It is designed with a **dark theme, glassmorphism style, and glowing accents** t
 - CSS3 (Flexbox, Grid, Glassmorphism effects)    
 
 ## 🌐 Live Demo  
-(After uploading, you can add a **GitHub Pages link** here)  
+https://kevtag0101.github.io/my-success-timetable/  
 
 ## 📌 About the Project  
 This timetable represents my **daily study & productivity routine**.  
@@ -26,5 +26,5 @@ It includes time for:
 - 👨‍👩‍👦 Helping Mom at her workshop  
 
 This project is also part of my **portfolio showcase**.  
-- Portfolio (coming soon)  
+- Portfolio  
 
