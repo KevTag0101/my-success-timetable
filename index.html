@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kev's Weekly Success Timetable</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .timetable-container {
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #00f7ff;
+      text-shadow: 0 0 15px #00f7ff;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 12px;
+      padding: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 0 15px rgba(0, 247, 255, 0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 25px rgba(0, 247, 255, 0.6);
+    }
+
+    .time {
+      font-weight: bold;
+      color: #00f7ff;
+      margin-bottom: 10px;
+    }
+
+    .activity {
+      font-size: 1.1rem;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="timetable-container">
+    <h1>Kev's Weekly Success Timetable</h1>
+    <div class="grid">
+      <div class="card"><div class="time">11:30 a.m. – 1:00 p.m.</div><div class="activity">German Language Learning</div></div>
+      <div class="card"><div class="time">1:00 p.m. – 2:30 p.m.</div><div class="activity">NovDec Studies (Math, Science, English)</div></div>
+      <div class="card"><div class="time">2:30 p.m. – 3:00 p.m.</div><div class="activity">Quick Rest</div></div>
+      <div class="card"><div class="time">3:00 p.m. – 6:00 p.m.</div><div class="activity">Classes (Mon–Wed, Fri) / Productive Tasks (Thu, Sat, Sun)</div></div>
+      <div class="card"><div class="time">6:00 p.m. – 7:30 p.m.</div><div class="activity">Long Rest</div></div>
+      <div class="card"><div class="time">7:30 p.m. – 9:00 p.m.</div><div class="activity">NovDec Revision</div></div>
+      <div class="card"><div class="time">9:00 p.m. – 10:00 p.m.</div><div class="activity">Free Time (Pray, Relax, Read, Meditate)</div></div>
+      <div class="card"><div class="time">10:00 p.m. – 11:00 p.m.</div><div class="activity">Dinner & Refresh</div></div>
+      <div class="card"><div class="time">11:00 p.m. – 11:30 p.m.</div><div class="activity">Prep for Coding</div></div>
+      <div class="card"><div class="time">11:30 p.m. – 3:00 a.m.</div><div class="activity">Web Development & Coding</div></div>
+      <div class="card"><div class="time">3:00 a.m. – 4:15 a.m.</div><div class="activity">Short Nap</div></div>
+      <div class="card"><div class="time">4:30 a.m. – 11:00 a.m.</div><div class="activity">Helping Mom at Workshop</div></div>
+    </div>
+  </div>
+</body>
+</html>
